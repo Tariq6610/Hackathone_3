@@ -1,0 +1,18 @@
+Test Case ID,Description,Steps,Expected Result,Actual Result,Status,Severity,Assigned To,Remarks
+TC001,Verify product listing on the homepage,"1. Visit the homepage.
+2. Scroll to 'New Arrival'.
+3. Verify 'Top Selling'.",Products displayed in both 'New Arrival' and 'Top Selling'.,Products were displayed correctly.,Passed,Low,-,No issues found
+TC002,Validate accurate results based on filters and search,"1. Use search bar.
+2. Apply filters (e.g., category, size).
+3. Verify matching results.",Accurate results based on user input.,Filters worked correctly.,Passed,Medium,-,Test successful
+TC003,"Validate cart operations: Add, update, and remove items","1. Add product to cart.
+2. Update quantity.
+3. Remove from cart.",Cart operations work without errors.,Cart operations worked.,Passed,High,-,Works as expected
+TC004,Verify individual product detail pages load correctly,"1. Open product page.
+2. Check name, price, description, images.",Pages load with accurate details.,Details displayed correctly.,Passed,Low,-,No issues found
+TC005,Verify error handling using try-catch for console and alert,"1. Simulate error.
+2. Check console log and alert display.",Errors logged and alert displayed.,Error logged and alert shown.,Passed,Medium,-,No issues found
+TC006,Validate conditional rendering when no products are found,"1. Select categories with no overlapping products.
+2. Check for 'No Product available'.",'No Product available' message displayed.,Message displayed correctly.,Passed,Low,-,No issues found
+TC007,Cross-browser and device compatibility testing,"1. Test website on browsers (Safari, Chrome, Edge, Opera).
+2. Test on mobile devices.",Website functions and displays correctly.,All tests passed.,Passed,High,-,Test successful
